@@ -9,13 +9,15 @@ const Header = () => (
   <header className="bg-brand-600 text-white shadow-lg sticky top-0 z-50">
     <div className="container mx-auto px-4 py-4 flex justify-between items-center">
       <div className="flex items-center gap-2">
-        <span className="text-3xl">🥖</span>
+        <span className="text-3xl" aria-hidden="true">🥖</span>
         <div>
-          <h1 className="text-2xl font-serif font-bold tracking-wide">Rolando Panaderia</h1>
-          <p className="text-xs text-brand-200 hidden sm:block">100 Authentic Filipino Recipes</p>
+          <h1 className="text-2xl font-serif font-bold tracking-wide">
+            Rolando Panaderia
+          </h1>
+          <p className="text-xs text-brand-200 hidden sm:block">
+            100% Authentic Filipino Recipes
+          </p>
         </div>
-      </div>
-      
       </div>
     </div>
   </header>
