@@ -15,8 +15,7 @@ const Header = () => (
           <p className="text-xs text-brand-200 hidden sm:block">100 Authentic Filipino Recipes</p>
         </div>
       </div>
-      <div className="text-sm font-medium bg-brand-800 py-1 px-3 rounded-full">
-        Gemini Powered
+      
       </div>
     </div>
   </header>
